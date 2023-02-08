@@ -25,9 +25,14 @@ class Ui_Form(object):
         self.ready.setGeometry(QtCore.QRect(600, 550, 141, 23))
         self.ready.setObjectName("ready")
         self.label = QtWidgets.QLabel(Form)
-        self.label.setGeometry(QtCore.QRect(10, 10, 721, 521))
-        self.label.setText("")
-        self.label.setObjectName("label")
+        self.label.setGeometry(QtCore.QRect(10, 510, 150, 50))
+        self.label.setText("Введите координаты: ")
+        self.label.setObjectName("label_coords")
+
+        self.label = QtWidgets.QLabel(Form)
+        self.label.setGeometry(QtCore.QRect(270, 510, 150, 50))
+        self.label.setText("Введите масштаб: ")
+        self.label.setObjectName("label_zoom")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -35,6 +40,6 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
-        self.coords.setText(_translate("Form", "Введите координаты:"))
-        self.delta.setText(_translate("Form", "Введите маштаб от 0 до 0.0000001:"))
+        self.coords.setText(_translate("Form", ""))
+        self.delta.setText(_translate("Form", ""))
         self.ready.setText(_translate("Form", "Показать"))
