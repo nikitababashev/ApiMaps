@@ -17,26 +17,13 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>550</y>
+     <y>560</y>
      <width>231</width>
      <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>Введите координаты:</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="delta">
-   <property name="geometry">
-    <rect>
-     <x>260</x>
-     <y>550</y>
-     <width>321</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Введите маштаб от 0 до 0.0000001:</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="ready">
@@ -52,7 +39,7 @@
     <string>Показать</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="map">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -63,6 +50,32 @@
    </property>
    <property name="text">
     <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>540</y>
+     <width>231</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Введите координаты:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="delta">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>560</y>
+     <width>321</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Масштаб:</string>
    </property>
   </widget>
  </widget>
